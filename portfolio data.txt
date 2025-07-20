@@ -1,0 +1,7 @@
+Sample Relationship#R0001#Sample Portfolio#Sample Banker#Sample Model#100000#2023-08-25#John Doe#2023-08-25#2023-08-25#Pending	
+
+Luna Leslie#R0002#Porfolio Sample#Sample Banker#Sample Model#Sample portfolio value#2023-08-06#Lauren Reeze#2023-03-09#2023-03-09#Pending
+
+Justin Russo#R0003#Porfolio Sample#Sample Banker#Sample Model#Sample portfolio value#2023-08-06#Millis Mabel#2023-03-09#2023-03-09#Closed
+
+Aria Roscent#R0004#Port name#Ivsr#Tree model#20000#2023-08-02#Linalee Lee#2023-08-19#2023-08-22#Rebalance pending	

@@ -1,0 +1,26 @@
+CREATE TABLE relationship(
+  relationship_name VARCHAR(255) NOT NULL,
+  relationship_number VARCHAR(50) NOT NULL,
+  portfolio_name VARCHAR(255) NOT NULL,
+  investment_banker VARCHAR(100) NOT NULL,
+  model_name VARCHAR(100) NOT NULL,
+  portfolio_value VARCHAR(200) NOT NULL,
+  PRIMARY KEY (relationship_number)
+);
+
+CREATE TABLE updates(
+  relationship_number VARCHAR(50) PRIMARY KEY,
+  created_on DATE  NOT NULL,
+  created_by VARCHAR(100) NOT NULL,
+  updated_on DATE,
+  checked_by VARCHAR(20),
+  FOREIGN KEY (relationship_number) REFERENCES relationship(relationship_number)
+);
+
+CREATE TABLE details(
+  relationship_number VARCHAR(50) PRIMARY KEY,
+  previous_rebalance_date DATE  NOT NULL,
+  rebalance_open_date DATE  NOT NULL,
+  status VARCHAR(200),
+  FOREIGN KEY (relationship_number) REFERENCES relationship(relationship_number)
+);
